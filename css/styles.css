@@ -1,0 +1,50 @@
+/*
+span {
+    background-color: red;
+    color: white;
+
+    display: inline-block;
+
+    width: 10em;
+    height: 15em;
+}
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.padre {
+    display: flex;
+
+    flex-direction: row; 
+    /*row, column, row-reverse, column-reverse*/
+    justify-content: center;
+    /*flex-start | flex-end | center | space-between | space-around | space-evenly*/
+    align-items: center;
+    /*flex-start | flex-end | center | stretch | baseline*/
+    height: 40em;
+    width: 40em;
+
+    background-color: red;
+}
+
+.hijo {
+
+    height: 3em;
+    width: 3em;
+
+    margin: 1em;
+
+    background-color: white;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
